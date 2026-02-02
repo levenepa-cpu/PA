@@ -6,6 +6,12 @@
   <meta name="description" content="Assurance-crédit & affacturage expliqués simplement : protéger tes ventes B2B et accélérer ton cash." />
   <!-- Mots-clés pour le référencement -->
   <meta name="keywords" content="assurance crédit, affacturage, gestion des créances B2B, protection contre les impayés, délais de paiement, financement B2B, Diot Siaci Crédit" />
+  <!-- Balises Open Graph pour un meilleur partage social -->
+  <meta property="og:title" content="Assurance-crédit &amp; Affacturage – simple et punchy" />
+  <meta property="og:description" content="Explications simples sur l'assurance-crédit et l'affacturage pour protéger vos ventes B2B et améliorer votre trésorerie." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://levenepa-cpu.github.io/PA/" />
+  <meta property="og:locale" content="fr_FR" />
   <title>Assurance-crédit &amp; Affacturage – simple et punchy</title>
 
   <style>
@@ -443,6 +449,31 @@
       </div>
     </section>
 
+    <!-- Section Ressources / Blog -->
+    <section id="ressources">
+      <div class="sectionTitle">
+        <h2>Ressources &amp; Articles</h2>
+        <p class="hint">Des conseils et analyses pour maîtriser ton risque client et optimiser ta trésorerie.</p>
+      </div>
+      <div class="grid3">
+        <div class="card box">
+          <h3>Pourquoi assurer tes créances&nbsp;?</h3>
+          <p>Découvre comment l'assurance-crédit protège tes ventes et renforce ta trésorerie.</p>
+          <a class="btn" href="#contact">Lire plus</a>
+        </div>
+        <div class="card box">
+          <h3>Affacturage&nbsp;: accélérer ton cash</h3>
+          <p>Zoom sur le fonctionnement du factoring et les situations où il fait la différence.</p>
+          <a class="btn" href="#contact">Lire plus</a>
+        </div>
+        <div class="card box">
+          <h3>Cas pratiques &amp; retours d'expérience</h3>
+          <p>Des exemples concrets d'entreprises qui ont combiné protection et croissance.</p>
+          <a class="btn" href="#contact">Lire plus</a>
+        </div>
+      </div>
+    </section>
+
     <section id="contact">
       <div class="sectionTitle">
         <h2>Contact</h2>
@@ -601,7 +632,6 @@ function attachThousandsFormatter(inputId) {
 
       if (errors.length) { alert(errors.join('\n')); return; }
 
-      // 🔧 Remplace cette adresse par TON email :
       const to = "levenepa@gmail.com";
 
       const subject = encodeURIComponent(`[${objet}] — ${nom}`);
