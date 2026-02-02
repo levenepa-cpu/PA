@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Assurance-crédit & affacturage expliqués simplement : protéger tes ventes B2B et accélérer ton cash." />
-  <title>Pierre Antoine Levené — Assurance-crédit & Affacturage (simple et punchy)</title>
+  <title>Assurance-crédit &amp; Affacturage – simple et punchy</title>
 
   <style>
     :root{
@@ -221,7 +221,7 @@
     <nav class="nav" aria-label="Navigation">
       <a class="brand" href="#top">
         <span class="logo" aria-hidden="true"></span>
-        <span>Pierre Antoine Levené</span>
+        <span>Assurance-crédit &amp; Affacturage</span>
       </a>
 
       <ul>
@@ -489,7 +489,7 @@
     </section>
 
     <footer>
-      <div>© <span id="year"></span> — Pierre Antoine Levené</div>
+      <div>© <span id="year"></span> — Assurance-crédit &amp; Affacturage</div>
       <div>Infos générales, non contractuelles.</div>
     </footer>
   </div>
@@ -604,11 +604,11 @@ function attachThousandsFormatter(inputId) {
       if (errors.length) { alert(errors.join('\n')); return; }
 
       // 🔧 Remplace cette adresse par TON email :
-      const to = "ton.email@exemple.com";
+      const to = "levenepa@gmail.com";
 
       const subject = encodeURIComponent(`[${objet}] — ${nom}`);
       const body = encodeURIComponent(
-        `Bonjour Pierre Antoine,\n\n${msg}\n\nCoordonnées :\n- Nom/Boîte : ${nom}\n- Email : ${email}\n\nMerci !\n${nom}`
+        `Bonjour,\n\n${msg}\n\nCoordonnées :\n- Nom/Boîte : ${nom}\n- Email : ${email}\n\nMerci !\n${nom}`
       );
 
       window.location.href = `mailto:${to}?subject=${subject}&body=${body}`;
